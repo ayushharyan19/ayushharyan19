@@ -1,21 +1,21 @@
 name: GitHub Metrics
- 
+
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily at midnight
-  workflow_dispatch:        # lets you run it manually anytime
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches: ["main", "master"]
- 
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
- 
+
     steps:
- 
-      # ── MAIN CARD (header + followers + stars) ─────────────────
+
+      # ── MAIN CARD (header + activity + repos) ──────────────────
       - name: Header metrics
         uses: lowlighter/metrics@latest
         with:
@@ -24,7 +24,8 @@ jobs:
           template: terminal
           base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
- 
+          config_skin: terminal
+
       # ── LANGUAGES ──────────────────────────────────────────────
       - name: Languages
         uses: lowlighter/metrics@latest
@@ -33,13 +34,14 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: terminal
           base: ""
+          config_timezone: Asia/Kolkata
+          config_skin: terminal
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          config_timezone: Asia/Kolkata
- 
+
       # ── CONTRIBUTION CALENDAR ──────────────────────────────────
       - name: Isocalendar
         uses: lowlighter/metrics@latest
@@ -48,10 +50,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: terminal
           base: ""
+          config_timezone: Asia/Kolkata
+          config_skin: terminal
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          config_timezone: Asia/Kolkata
- 
+
       # ── CODING HABITS ──────────────────────────────────────────
       - name: Habits
         uses: lowlighter/metrics@latest
@@ -60,13 +63,14 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: terminal
           base: ""
+          config_timezone: Asia/Kolkata
+          config_skin: terminal
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          config_timezone: Asia/Kolkata
- 
+
       # ── RECENT ACTIVITY ────────────────────────────────────────
       - name: Activity
         uses: lowlighter/metrics@latest
@@ -75,12 +79,13 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: terminal
           base: ""
+          config_timezone: Asia/Kolkata
+          config_skin: terminal
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: push, issue, pr, review, release
-          config_timezone: Asia/Kolkata
- 
+
       # ── LEETCODE ───────────────────────────────────────────────
       - name: LeetCode
         uses: lowlighter/metrics@latest
@@ -89,13 +94,14 @@ jobs:
           token: NOT_NEEDED
           template: terminal
           base: ""
+          config_timezone: Asia/Kolkata
+          config_skin: terminal
           plugin_leetcode: yes
           plugin_leetcode_user: ayushharyan19
           plugin_leetcode_sections: solved, skills, recent
           plugin_leetcode_limit_skills: 6
           plugin_leetcode_limit_recent: 3
-          config_timezone: Asia/Kolkata
- 
+
       # ── ACHIEVEMENTS ───────────────────────────────────────────
       - name: Achievements
         uses: lowlighter/metrics@latest
@@ -104,8 +110,22 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: terminal
           base: ""
+          config_timezone: Asia/Kolkata
+          config_skin: terminal
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_display: compact
+
+      # ── WORLDMAP ───────────────────────────────────────────────
+      - name: Worldmap
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.worldmap.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: terminal
+          base: ""
           config_timezone: Asia/Kolkata
- 
+          config_skin: terminal
+          plugin_stargazers: yes
+          plugin_stargazers_worldmap: yes
+          plugin_stargazers_worldmap_sample: 200
