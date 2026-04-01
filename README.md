@@ -37,44 +37,125 @@
 
 ---
 
+<!-- ═══════════════════ WHAT I'M DOING RIGHT NOW ═══════════════════ -->
+
 <div align="center">
 
-### `> skills --list`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=500&lines=%E2%9A%A1+What+I'm+doing+right+now" alt="What I'm doing right now"/>
 
-<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-</div>
-<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
-  <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/OpenAI-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/LangChain-%23000000.svg?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</div>
+<br><br>
+
+I am currently building **AI-powered agents** at **Fordge Factory** and sharpening my **DSA skills in Java**.<br>
+My exploration focuses on **autonomous agents, LLM orchestration, and full-stack development**.<br>
+I am always open to exciting **open-source collaborations** and **AI agent projects**.<br>
+Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmail.com)**.
 
 </div>
+
+<br>
 
 ---
 
+<!-- ═══════════════════ THE TOOLKIT ═══════════════════ -->
+
 <div align="center">
 
-### `> metrics --all`
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=400&lines=%F0%9F%9B%A0%EF%B8%8F+The+Toolkit" alt="The Toolkit"/>
 
-<img src="metrics.base.svg" alt="Base Metrics" width="48%"/> <img src="metrics.languages.svg" alt="Languages" width="48%"/>
+<br><br>
 
-<img src="metrics.isocalendar.svg" alt="Contribution Calendar" width="100%"/>
+<table>
+<tr>
+<td align="center"><b>Frontend</b></td>
+<td align="center"><b>Backend & AI</b></td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind&theme=dark" alt="Frontend Skills"/>
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=nodejs,python,java,flask,mongodb,supabase&theme=dark" alt="Backend & AI Skills"/>
+</td>
+</tr>
+</table>
 
-<img src="metrics.habits.svg" alt="Coding Habits" width="48%"/> <img src="metrics.leetcode.svg" alt="LeetCode Stats" width="48%"/>
-
-<img src="metrics.activity.svg" alt="Recent Activity" width="48%"/> <img src="metrics.achievements.svg" alt="Achievements" width="48%"/>
-
-<img src="metrics.worldmap.svg" alt="Worldmap" width="100%"/>
+<table>
+<tr>
+<td align="center"><b>Tools, Deployment & Workflow</b></td>
+<td align="center"><b>AI & LLM Stack</b></td>
+</tr>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=git,github,vercel,vscode,figma&theme=dark" alt="Tools"/>
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" alt="AI Stack"/>
+&nbsp;
+<img src="https://img.shields.io/badge/OpenAI-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" height="48"/>
+<img src="https://img.shields.io/badge/LangChain-%231C3C3C.svg?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" height="48"/>
+</td>
+</tr>
+</table>
 
 </div>
+
+<br>
+
+---
+
+<!-- ═══════════════════ CODING PROFILE ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=400&lines=%F0%9F%8F%86+Coding+Profile" alt="Coding Profile"/>
+
+<br><br>
+
+[![LeetCode](https://img.shields.io/badge/LEETCODE-%23FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/ayushharyan19/)
+&nbsp;&nbsp;
+[![Codeforces](https://img.shields.io/badge/CODEFORCES-%231F8ACB.svg?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/ayushharyan19)
+
+</div>
+
+<br>
+
+---
+
+<!-- ═══════════════════ GITHUB STATS ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=400&lines=%F0%9F%93%8A+GitHub+Stats" alt="GitHub Stats"/>
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=ayushharyan19&show_icons=true&theme=dark&bg_color=0d1117&title_color=FFD700&icon_color=FFD700&text_color=c9d1d9&border_color=FFD700&hide_border=false" alt="GitHub Stats" width="48%"/>
+&nbsp;
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ayushharyan19&theme=dark&background=0d1117&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideLabels=FFD700&border=FFD700" alt="GitHub Streak" width="48%"/>
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushharyan19&layout=compact&theme=dark&bg_color=0d1117&title_color=FFD700&text_color=c9d1d9&border_color=FFD700&hide_border=false" alt="Top Languages" width="40%"/>
+
+</div>
+
+<br>
+
+---
+
+<!-- ═══════════════════ CONTRIBUTION SNAKE ═══════════════════ -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+<br>
 
 ---
 
@@ -84,5 +165,9 @@
 // "The ego that devours the world begins with devouring yourself."
 // — Blue Lock mindset 🔵🔒
 ```
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=4000&pause=2000&color=FFD700&center=true&vCenter=true&width=350&lines=Thanks+for+visiting+%F0%9F%A6%87;Always+Building%2C+Always+Shipping+%F0%9F%9A%80" alt="Footer typing"/>
 
 </div>

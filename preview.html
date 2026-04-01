@@ -1,118 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Profile Preview — Ayush Aryan</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #0d1117;
-      color: #e6edf3;
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      display: flex;
-      justify-content: center;
-      padding: 40px 20px;
-    }
-    .container {
-      max-width: 880px;
-      width: 100%;
-    }
-    .profile-header {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 24px;
-      padding-bottom: 16px;
-      border-bottom: 1px solid #30363d;
-    }
-    .avatar-circle {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 2px solid #FFD700;
-    }
-    .avatar-circle img { width: 100%; height: 100%; object-fit: cover; }
-    .profile-name { font-size: 20px; font-weight: 600; color: #FFD700; }
-    .profile-sub { font-size: 13px; color: #8b949e; }
-    .readme-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 6px;
-      padding: 6px 12px;
-      margin-bottom: 20px;
-      font-size: 13px;
-      color: #8b949e;
-    }
-    .readme-badge span { color: #e6edf3; font-weight: 600; }
-    .readme-content {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 8px;
-      padding: 32px;
-    }
-    .readme-content img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .readme-content hr {
-      border: none;
-      border-top: 1px solid #30363d;
-      margin: 24px 0;
-    }
-    .section-gap { height: 8px; }
-    .label {
-      text-align: center;
-      color: #484f58;
-      font-size: 11px;
-      margin-top: 24px;
-      letter-spacing: 1px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Profile Preview</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0d1117;
+    color: #c9d1d9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 30px 40px;
+  }
+  .container img { max-width: 100%; }
+  .container table {
+    border-collapse: collapse;
+    margin: 10px auto;
+  }
+  .container td, .container th {
+    border: 1px solid #30363d;
+    padding: 8px 16px;
+  }
+  .container h2 { color: #c9d1d9; margin: 20px 0 10px; border-bottom: 1px solid #21262d; padding-bottom: 8px; }
+  .container h3 { color: #c9d1d9; margin: 16px 0 8px; }
+  .container a { color: #58a6ff; text-decoration: none; }
+  .container a:hover { text-decoration: underline; }
+  .container code { background: #1f2937; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+  .container pre { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 16px; overflow-x: auto; }
+  .container blockquote { border-left: 3px solid #3b82f6; padding-left: 16px; color: #8b949e; margin: 12px 0; }
+  .container hr { border: none; border-top: 1px solid #21262d; margin: 24px 0; }
+  .container b, .container strong { color: #c9d1d9; }
+</style>
 </head>
 <body>
-  <div class="container">
-    <!-- Simulated GitHub profile header -->
-    <div class="profile-header">
-      <div class="avatar-circle">
-        <img src="assets/avatar.png" alt="Avatar">
-      </div>
-      <div>
-        <div class="profile-name">Ayush Aryan</div>
-        <div class="profile-sub">ayushharyan19 / README.md</div>
-      </div>
-    </div>
-
-    <!-- README badge -->
-    <div class="readme-badge">
-      📄 <span>README.md</span>
-    </div>
-
-    <!-- README content -->
-    <div class="readme-content">
-      <!-- Hero Banner -->
-      <img src="assets/hero.svg" alt="Hero Banner"/>
-
-      <hr/>
-
-      <!-- Chapter I -->
-      <img src="assets/chapter1.svg" alt="Chapter I — Who Am I?"/>
-
-      <div class="section-gap"></div>
-
-      <!-- Info Card -->
-      <img src="assets/info.svg" alt="Info Card"/>
-
-      <hr/>
-    </div>
-
-    <div class="label">✦ BATMAN THEME — BLACK & GOLD ✦</div>
-  </div>
+<div class="container" id="content"></div>
+<script>
+fetch('README.md')
+  .then(r => r.text())
+  .then(md => {
+    document.getElementById('content').innerHTML = marked.parse(md);
+  });
+</script>
 </body>
 </html>
