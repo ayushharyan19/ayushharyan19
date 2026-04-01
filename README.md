@@ -129,13 +129,13 @@ Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmai
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=ayushharyan19&show_icons=true&theme=dark&bg_color=0d1117&title_color=FFD700&icon_color=FFD700&text_color=c9d1d9&border_color=FFD700&hide_border=false" alt="GitHub Stats" width="48%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushharyan19&show_icons=true&theme=dark&bg_color=0d1117&title_color=FFD700&icon_color=FFD700&text_color=c9d1d9&border_color=FFD700&hide_border=false" alt="GitHub Stats" width="48%"/>
 &nbsp;
 <img src="https://github-readme-streak-stats.herokuapp.com?user=ayushharyan19&theme=dark&background=0d1117&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideLabels=FFD700&border=FFD700" alt="GitHub Streak" width="48%"/>
 
 <br><br>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayushharyan19&layout=compact&theme=dark&bg_color=0d1117&title_color=FFD700&text_color=c9d1d9&border_color=FFD700&hide_border=false" alt="Top Languages" width="40%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushharyan19&layout=compact&theme=dark&bg_color=0d1117&title_color=FFD700&text_color=c9d1d9&border_color=FFD700&hide_border=false" alt="Top Languages" width="40%"/>
 
 </div>
 
@@ -143,15 +143,11 @@ Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmai
 
 ---
 
-<!-- ═══════════════════ CONTRIBUTION SNAKE ═══════════════════ -->
+<!-- ═══════════════════ ACTIVITY GRAPH ═══════════════════ -->
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake-dark.svg" width="100%"/>
-</picture>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushharyan19&bg_color=0d1117&color=FFD700&line=FFD700&point=FFFFFF&area_color=FFD700&area=true&hide_border=false&custom_title=Contribution%20Graph" alt="Activity Graph" width="100%"/>
 
 </div>
 
