@@ -8,16 +8,30 @@
 
 <div align="center">
 
-### `> whoami`
+## ⚡ WHO AM I
 
-*Every great creation begins in darkness.*
-*I transform raw ideas into living, breathing applications.*
+<br>
 
-**`Name`** &nbsp;·&nbsp; Ayush Aryan &nbsp;&nbsp;|&nbsp;&nbsp; **`Role`** &nbsp;·&nbsp; AI Agent Builder &nbsp;&nbsp;|&nbsp;&nbsp; **`Location`** &nbsp;·&nbsp; India
+> *「 Every great creation begins in darkness. 」*
+> 
+> *「 I transform raw ideas into living, breathing applications. 」*
 
-**`Institute`** &nbsp;·&nbsp; Vedam School of Technology &nbsp;&nbsp;|&nbsp;&nbsp; **`Craft`** &nbsp;·&nbsp; Fordge Factory — AI Agents 🏭
+<br>
 
-**`Arena`** &nbsp;·&nbsp; DSA in Java ⚔️ &nbsp;&nbsp;|&nbsp;&nbsp; **`Spirit`** &nbsp;·&nbsp; Always Building, Always Shipping 🚀
+<table>
+<tr><td align="center" width="170"><b>🦇 NAME</b></td><td align="center" width="170"><b>⚙️ ROLE</b></td><td align="center" width="170"><b>📍 LOCATION</b></td></tr>
+<tr><td align="center"><code>Ayush Aryan</code></td><td align="center"><code>AI Agent Builder</code></td><td align="center"><code>India</code></td></tr>
+</table>
+
+<table>
+<tr><td align="center" width="255"><b>🏛️ INSTITUTE</b></td><td align="center" width="255"><b>🏭 CRAFT</b></td></tr>
+<tr><td align="center"><code>Vedam School of Technology</code></td><td align="center"><code>Fordge Factory — AI Agents</code></td></tr>
+</table>
+
+<table>
+<tr><td align="center" width="255"><b>⚔️ ARENA</b></td><td align="center" width="255"><b>🚀 SPIRIT</b></td></tr>
+<tr><td align="center"><code>DSA in Java</code></td><td align="center"><code>Always Building, Always Shipping</code></td></tr>
+</table>
 
 </div>
 
