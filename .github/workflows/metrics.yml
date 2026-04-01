@@ -15,7 +15,7 @@ jobs:
 
     steps:
 
-      # ── MAIN CARD (header + activity + repos) ──────────────────
+      # ── MAIN CARD ──────────────────────────────────────────────
       - name: Header metrics
         uses: lowlighter/metrics@latest
         with:
@@ -24,7 +24,14 @@ jobs:
           template: terminal
           base: header, activity, community, repositories
           config_timezone: Asia/Kolkata
-          config_skin: terminal
+          extras_css: |
+            :root {
+              --color-term-background: #0d0d0d;
+              --color-term-primary: #39ff14;
+              --color-term-secondary: #00cc00;
+            }
+            .terminal { background: #0d0d0d !important; }
+            .term-text, text { fill: #39ff14 !important; color: #39ff14 !important; }
 
       # ── LANGUAGES ──────────────────────────────────────────────
       - name: Languages
@@ -35,12 +42,14 @@ jobs:
           template: terminal
           base: ""
           config_timezone: Asia/Kolkata
-          config_skin: terminal
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
+          extras_css: |
+            .terminal { background: #0d0d0d !important; }
+            text { fill: #39ff14 !important; }
 
       # ── CONTRIBUTION CALENDAR ──────────────────────────────────
       - name: Isocalendar
@@ -51,9 +60,11 @@ jobs:
           template: terminal
           base: ""
           config_timezone: Asia/Kolkata
-          config_skin: terminal
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          extras_css: |
+            .terminal { background: #0d0d0d !important; }
+            text { fill: #39ff14 !important; }
 
       # ── CODING HABITS ──────────────────────────────────────────
       - name: Habits
@@ -64,12 +75,14 @@ jobs:
           template: terminal
           base: ""
           config_timezone: Asia/Kolkata
-          config_skin: terminal
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          extras_css: |
+            .terminal { background: #0d0d0d !important; }
+            text { fill: #39ff14 !important; }
 
       # ── RECENT ACTIVITY ────────────────────────────────────────
       - name: Activity
@@ -80,11 +93,13 @@ jobs:
           template: terminal
           base: ""
           config_timezone: Asia/Kolkata
-          config_skin: terminal
           plugin_activity: yes
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: push, issue, pr, review, release
+          extras_css: |
+            .terminal { background: #0d0d0d !important; }
+            text { fill: #39ff14 !important; }
 
       # ── LEETCODE ───────────────────────────────────────────────
       - name: LeetCode
@@ -95,12 +110,14 @@ jobs:
           template: terminal
           base: ""
           config_timezone: Asia/Kolkata
-          config_skin: terminal
           plugin_leetcode: yes
           plugin_leetcode_user: ayushharyan19
           plugin_leetcode_sections: solved, skills, recent
           plugin_leetcode_limit_skills: 6
           plugin_leetcode_limit_recent: 3
+          extras_css: |
+            .terminal { background: #0d0d0d !important; }
+            text { fill: #39ff14 !important; }
 
       # ── ACHIEVEMENTS ───────────────────────────────────────────
       - name: Achievements
@@ -111,10 +128,12 @@ jobs:
           template: terminal
           base: ""
           config_timezone: Asia/Kolkata
-          config_skin: terminal
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_display: compact
+          extras_css: |
+            .terminal { background: #0d0d0d !important; }
+            text { fill: #39ff14 !important; }
 
       # ── WORLDMAP ───────────────────────────────────────────────
       - name: Worldmap
@@ -125,7 +144,9 @@ jobs:
           template: terminal
           base: ""
           config_timezone: Asia/Kolkata
-          config_skin: terminal
           plugin_stargazers: yes
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_sample: 200
+          extras_css: |
+            .terminal { background: #0d0d0d !important; }
+            text { fill: #39ff14 !important; }
