@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="230" viewBox="0 0 850 230">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0d14"/>
+      <stop offset="100%" stop-color="#0a0a10"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="230" fill="url(#ibg)" rx="12"/>
+
+  <!-- Left gold accent bar -->
+  <rect x="0" y="0" width="5" height="230" fill="#FFD700" rx="2" opacity="0.8"/>
+
+  <!-- Right gold accent bar -->
+  <rect x="845" y="0" width="5" height="230" fill="#FFD700" rx="2" opacity="0.4"/>
+
+  <!-- Bottom gold line -->
+  <line x1="5" y1="228" x2="845" y2="228" stroke="#FFD700" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Row 1: Name -->
+  <text x="35" y="42" font-family="'Courier New',monospace" font-size="15" font-weight="bold" fill="#FFD700">Name</text>
+  <text x="185" y="42" font-family="'Courier New',monospace" font-size="15" fill="#666">:</text>
+  <text x="205" y="42" font-family="'Courier New',monospace" font-size="15" fill="#e0e0e0">Ayush Aryan</text>
+
+  <!-- Row 2: Role -->
+  <text x="35" y="74" font-family="'Courier New',monospace" font-size="15" font-weight="bold" fill="#FFD700">Role</text>
+  <text x="185" y="74" font-family="'Courier New',monospace" font-size="15" fill="#666">:</text>
+  <text x="205" y="74" font-family="'Courier New',monospace" font-size="15" fill="#e0e0e0">AI Agent Builder</text>
+
+  <!-- Row 3: Institute -->
+  <text x="35" y="106" font-family="'Courier New',monospace" font-size="15" font-weight="bold" fill="#FFD700">Institute</text>
+  <text x="185" y="106" font-family="'Courier New',monospace" font-size="15" fill="#666">:</text>
+  <text x="205" y="106" font-family="'Courier New',monospace" font-size="15" fill="#e0e0e0">Vedam School of Technology</text>
+
+  <!-- Row 4: Craft -->
+  <text x="35" y="138" font-family="'Courier New',monospace" font-size="15" font-weight="bold" fill="#FFD700">Craft</text>
+  <text x="185" y="138" font-family="'Courier New',monospace" font-size="15" fill="#666">:</text>
+  <text x="205" y="138" font-family="'Courier New',monospace" font-size="15" fill="#e0e0e0">Fordge Factory — AI Agents 🏭</text>
+
+  <!-- Row 5: Arena -->
+  <text x="35" y="170" font-family="'Courier New',monospace" font-size="15" font-weight="bold" fill="#FFD700">Arena</text>
+  <text x="185" y="170" font-family="'Courier New',monospace" font-size="15" fill="#666">:</text>
+  <text x="205" y="170" font-family="'Courier New',monospace" font-size="15" fill="#e0e0e0">DSA in Java ⚔️</text>
+
+  <!-- Row 6: Spirit -->
+  <text x="35" y="202" font-family="'Courier New',monospace" font-size="15" font-weight="bold" fill="#FFD700">Spirit</text>
+  <text x="185" y="202" font-family="'Courier New',monospace" font-size="15" fill="#666">:</text>
+  <text x="205" y="202" font-family="'Courier New',monospace" font-size="15" fill="#e0e0e0">Always Building, Always Shipping 🚀</text>
+</svg>
