@@ -1,119 +1,123 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260">
-  <defs>
-    <linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0a0a10"/>
-      <stop offset="100%" stop-color="#10101a"/>
-    </linearGradient>
-    <linearGradient id="moonGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260">
 
   <!-- Background -->
-  <rect width="850" height="260" fill="url(#cbg)" rx="10"/>
-
-  <!-- Gold bottom border -->
-  <line x1="0" y1="257" x2="850" y2="257" stroke="#FFD700" stroke-width="3" opacity="0.75"/>
+  <rect width="860" height="260" fill="#07070f" rx="10"/>
+  <rect x="0" y="0" width="860" height="260" fill="#0a0a15" rx="10" opacity="0.5"/>
 
   <!-- Left gold accent bar -->
-  <rect x="0" y="0" width="5" height="260" fill="#FFD700" rx="0" opacity="0.8"/>
+  <rect x="0" y="0" width="5" height="260" fill="#FFD700" rx="0"/>
 
-  <!-- Decorative dots -->
-  <circle cx="28" cy="20" r="2.5" fill="#FFD700" opacity="0.4"/>
-  <circle cx="28" cy="240" r="2.5" fill="#FFD700" opacity="0.3"/>
+  <!-- Gold bottom border line -->
+  <line x1="0" y1="257" x2="860" y2="257" stroke="#FFD700" stroke-width="3" opacity="0.8"/>
+
+  <!-- Small decorative dots -->
+  <circle cx="28" cy="18" r="2.5" fill="#FFD700" opacity="0.5"/>
+  <circle cx="28" cy="242" r="2.5" fill="#FFD700" opacity="0.4"/>
 
   <!-- CHAPTER I label -->
-  <text x="48" y="58" font-family="Courier New, monospace" font-size="12" fill="#FFD700" letter-spacing="6" opacity="0.8">C H A P T E R   I</text>
+  <text x="48" y="56"
+        font-family="'Courier New', Courier, monospace"
+        font-size="12" fill="#FFD700"
+        letter-spacing="6" opacity="0.85">C H A P T E R   I</text>
 
   <!-- Who Am I? heading -->
-  <text x="48" y="115" font-family="Georgia, Times New Roman, serif" font-size="46" font-weight="bold" fill="#FFD700">Who Am I?</text>
+  <text x="48" y="118"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="52" font-weight="bold"
+        fill="#FFD700">Who Am I?</text>
 
   <!-- Gold underline -->
-  <rect x="48" y="124" width="260" height="2.5" fill="#FFD700" opacity="0.5" rx="1"/>
+  <rect x="48" y="128" width="280" height="3" fill="#FFD700" opacity="0.5" rx="1"/>
 
-  <!-- Description lines -->
-  <text x="48" y="165" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#D4AF37" font-style="italic" opacity="0.9">Every great creation begins in darkness.</text>
-  <text x="48" y="192" font-family="Georgia, Times New Roman, serif" font-size="15" fill="#D4AF37" font-style="italic" opacity="0.9">I transform raw ideas into living, breathing applications.</text>
+  <!-- Italic description lines -->
+  <text x="48" y="168"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="15" font-style="italic"
+        fill="#D4AF37" opacity="0.92">Every great creation begins in darkness.</text>
+  <text x="48" y="196"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="15" font-style="italic"
+        fill="#D4AF37" opacity="0.92">I transform raw ideas into living, breathing applications.</text>
 
-  <!-- ============ RIGHT SIDE: GOTHAM SCENE ============ -->
+  <!-- ======= RIGHT: Gotham Night Scene ======= -->
 
-  <!-- Moon glow -->
-  <circle cx="700" cy="55" r="50" fill="#FFD700" opacity="0.06"/>
+  <!-- Moon glow (layered ellipses for soft glow effect) -->
+  <circle cx="700" cy="58" r="52" fill="#FFD700" opacity="0.04"/>
+  <circle cx="700" cy="58" r="40" fill="#FFD700" opacity="0.05"/>
+  <circle cx="700" cy="58" r="30" fill="#1a1828" opacity="0.6"/>
   <!-- Moon crescent -->
-  <circle cx="700" cy="55" r="32" fill="#1a1a28"/>
-  <circle cx="685" cy="48" r="28" fill="#14141f"/>
+  <circle cx="712" cy="52" r="26" fill="#07070f"/>
 
   <!-- Stars near moon -->
-  <circle cx="740" cy="30" r="1.2" fill="#FFD700" opacity="0.6"/>
-  <circle cx="758" cy="52" r="0.9" fill="#FFD700" opacity="0.5"/>
-  <circle cx="720" cy="22" r="1" fill="#FFD700" opacity="0.4"/>
-  <circle cx="770" cy="38" r="0.8" fill="#FFD700" opacity="0.55"/>
-  <circle cx="682" cy="18" r="1.1" fill="#FFD700" opacity="0.45"/>
-  <circle cx="798" cy="28" r="0.9" fill="#FFD700" opacity="0.5"/>
-  <circle cx="812" cy="60" r="1" fill="#FFD700" opacity="0.4"/>
-  <circle cx="660" cy="30" r="0.8" fill="#FFD700" opacity="0.4"/>
-  <circle cx="830" cy="42" r="0.7" fill="#FFD700" opacity="0.35"/>
+  <circle cx="740" cy="28"  r="1.2" fill="#FFD700" opacity="0.7"/>
+  <circle cx="758" cy="52"  r="0.9" fill="#FFD700" opacity="0.55"/>
+  <circle cx="722" cy="20"  r="1.0" fill="#FFD700" opacity="0.5"/>
+  <circle cx="772" cy="36"  r="0.8" fill="#FFD700" opacity="0.6"/>
+  <circle cx="682" cy="20"  r="1.1" fill="#FFD700" opacity="0.5"/>
+  <circle cx="800" cy="28"  r="0.9" fill="#FFD700" opacity="0.55"/>
+  <circle cx="815" cy="62"  r="1.0" fill="#FFD700" opacity="0.45"/>
+  <circle cx="660" cy="30"  r="0.8" fill="#FFD700" opacity="0.45"/>
+  <circle cx="832" cy="44"  r="0.7" fill="#FFD700" opacity="0.4"/>
+  <circle cx="845" cy="78"  r="0.8" fill="#FFD700" opacity="0.4"/>
+  <circle cx="645" cy="48"  r="0.7" fill="#FFD700" opacity="0.4"/>
 
-  <!-- Bat signal beam (faint triangle of light) -->
-  <polygon points="700,215 670,90 728,90" fill="#FFD700" opacity="0.025"/>
-  <ellipse cx="700" cy="218" rx="55" ry="12" fill="#FFD700" opacity="0.07"/>
+  <!-- Bat signal (faint) -->
+  <polygon points="700,222 672,98 728,98" fill="#FFD700" opacity="0.03"/>
+  <ellipse cx="700" cy="226" rx="52" ry="10" fill="#FFD700" opacity="0.07"/>
 
   <!-- Bat symbol in beam -->
-  <path d="M700,185 C696,181 689,186 686,180 C683,174 690,170 693,173 C695,170 698,164 700,162 C702,164 705,170 707,173 C710,170 717,174 714,180 C711,186 704,181 700,185Z" fill="#FFD700" opacity="0.22"/>
+  <path d="M700,192 C696,188 690,192 687,186 C684,180 690,176 693,179 C695,176 698,171 700,169 C702,171 705,176 707,179 C710,176 716,180 713,186 C710,192 704,188 700,192Z"
+        fill="#FFD700" opacity="0.25"/>
 
-  <!-- City silhouette buildings -->
-  <rect x="580" y="165" width="22" height="95" fill="#0d0d18" rx="1"/>
-  <rect x="606" y="150" width="16" height="110" fill="#111120" rx="1"/>
-  <rect x="626" y="135" width="28" height="125" fill="#0d0d18" rx="1"/>
-  <rect x="658" y="148" width="20" height="112" fill="#111120" rx="1"/>
-  <rect x="682" y="130" width="14" height="130" fill="#0d0d18" rx="1"/>
-  <!-- Tallest center building (Wayne Tower!) -->
-  <rect x="698" y="110" width="10" height="150" fill="#121220" rx="1"/>
-  <rect x="694" y="106" width="18" height="8" fill="#111120" rx="1"/>
-  <!-- antenna -->
-  <line x1="703" y1="106" x2="703" y2="92" stroke="#FFD700" stroke-width="1" opacity="0.5"/>
-  <circle cx="703" cy="91" r="1.5" fill="#FFD700" opacity="0.7"/>
+  <!-- City buildings -->
+  <rect x="588" y="168" width="22" height="92" fill="#0d0d1a" rx="1"/>
+  <rect x="614" y="152" width="16" height="108" fill="#111120" rx="1"/>
+  <rect x="634" y="138" width="28" height="122" fill="#0d0d1a" rx="1"/>
+  <rect x="666" y="150" width="20" height="110" fill="#111120" rx="1"/>
+  <rect x="690" y="132" width="14" height="128" fill="#0d0d1a" rx="1"/>
+  <!-- Wayne Tower (tallest) -->
+  <rect x="705" y="112" width="10" height="148" fill="#121222" rx="1"/>
+  <rect x="702" y="108" width="16" height="7"  fill="#111120" rx="1"/>
+  <!-- Antenna -->
+  <line x1="710" y1="108" x2="710" y2="94" stroke="#FFD700" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="710" cy="93" r="2" fill="#FFD700" opacity="0.8"/>
 
-  <rect x="712" y="135" width="18" height="125" fill="#0d0d18" rx="1"/>
-  <rect x="734" y="148" width="22" height="112" fill="#111120" rx="1"/>
-  <rect x="760" y="155" width="16" height="105" fill="#0d0d18" rx="1"/>
-  <rect x="780" y="142" width="26" height="118" fill="#111120" rx="1"/>
-  <rect x="810" y="162" width="18" height="98" fill="#0d0d18" rx="1"/>
-  <rect x="832" y="155" width="18" height="105" fill="#111120" rx="1"/>
+  <rect x="718" y="138" width="18" height="122" fill="#0d0d1a" rx="1"/>
+  <rect x="740" y="150" width="22" height="110" fill="#111120" rx="1"/>
+  <rect x="766" y="158" width="16" height="102" fill="#0d0d1a" rx="1"/>
+  <rect x="786" y="144" width="26" height="116" fill="#111120" rx="1"/>
+  <rect x="816" y="165" width="18" height="95"  fill="#0d0d1a" rx="1"/>
+  <rect x="838" y="158" width="22" height="102" fill="#111120" rx="1"/>
 
-  <!-- Building windows (golden lights) -->
-  <rect x="630" y="145" width="3" height="3" fill="#FFD700" opacity="0.5"/>
-  <rect x="637" y="158" width="3" height="3" fill="#FFD700" opacity="0.35"/>
-  <rect x="630" y="170" width="3" height="3" fill="#FFD700" opacity="0.4"/>
-  <rect x="644" y="148" width="3" height="3" fill="#FFD700" opacity="0.3"/>
-  <rect x="662" y="160" width="3" height="3" fill="#FFD700" opacity="0.45"/>
-  <rect x="669" y="175" width="3" height="3" fill="#FFD700" opacity="0.3"/>
-  <rect x="686" y="142" width="3" height="3" fill="#FFD700" opacity="0.4"/>
-  <rect x="702" y="120" width="2" height="2" fill="#FFD700" opacity="0.6"/>
-  <rect x="714" y="148" width="3" height="3" fill="#FFD700" opacity="0.4"/>
-  <rect x="720" y="162" width="3" height="3" fill="#FFD700" opacity="0.3"/>
-  <rect x="738" y="158" width="3" height="3" fill="#FFD700" opacity="0.45"/>
-  <rect x="745" y="170" width="3" height="3" fill="#FFD700" opacity="0.35"/>
-  <rect x="784" y="152" width="3" height="3" fill="#FFD700" opacity="0.4"/>
-  <rect x="790" y="168" width="3" height="3" fill="#FFD700" opacity="0.3"/>
-  <rect x="608" y="162" width="3" height="3" fill="#FFD700" opacity="0.35"/>
-  <rect x="583" y="175" width="3" height="3" fill="#FFD700" opacity="0.3"/>
-  <rect x="814" y="170" width="3" height="3" fill="#FFD700" opacity="0.35"/>
-  <rect x="835" y="165" width="3" height="3" fill="#FFD700" opacity="0.4"/>
+  <!-- Window lights -->
+  <rect x="638" y="148" width="3" height="3" fill="#FFD700" opacity="0.5"/>
+  <rect x="645" y="162" width="3" height="3" fill="#FFD700" opacity="0.4"/>
+  <rect x="638" y="176" width="3" height="3" fill="#FFD700" opacity="0.45"/>
+  <rect x="652" y="155" width="3" height="3" fill="#FFD700" opacity="0.35"/>
+  <rect x="670" y="162" width="3" height="3" fill="#FFD700" opacity="0.5"/>
+  <rect x="677" y="178" width="3" height="3" fill="#FFD700" opacity="0.35"/>
+  <rect x="693" y="145" width="3" height="3" fill="#FFD700" opacity="0.45"/>
+  <rect x="708" y="122" width="2" height="2" fill="#FFD700" opacity="0.65"/>
+  <rect x="721" y="150" width="3" height="3" fill="#FFD700" opacity="0.45"/>
+  <rect x="728" y="165" width="3" height="3" fill="#FFD700" opacity="0.35"/>
+  <rect x="744" y="160" width="3" height="3" fill="#FFD700" opacity="0.5"/>
+  <rect x="751" y="175" width="3" height="3" fill="#FFD700" opacity="0.4"/>
+  <rect x="790" y="155" width="3" height="3" fill="#FFD700" opacity="0.45"/>
+  <rect x="797" y="170" width="3" height="3" fill="#FFD700" opacity="0.35"/>
+  <rect x="616" y="165" width="3" height="3" fill="#FFD700" opacity="0.4"/>
+  <rect x="590" y="178" width="3" height="3" fill="#FFD700" opacity="0.35"/>
+  <rect x="820" y="175" width="3" height="3" fill="#FFD700" opacity="0.4"/>
+  <rect x="842" y="168" width="3" height="3" fill="#FFD700" opacity="0.45"/>
 
-  <!-- Batman figure standing on Wayne Tower rooftop -->
+  <!-- Batman figure on Wayne Tower rooftop -->
   <!-- Body -->
-  <rect x="696" y="82" width="14" height="18" fill="#FFD700" opacity="0.75" rx="2"/>
-  <!-- Head with ears -->
-  <path d="M697,82 L699,74 L701,79 L703,74 L705,79 L707,74 L709,82 Z" fill="#FFD700" opacity="0.75"/>
+  <rect x="704" y="84" width="12" height="16" fill="#FFD700" opacity="0.8" rx="2"/>
+  <!-- Head with bat ears -->
+  <path d="M705,84 L707,76 L709,81 L710,76 L712,81 L714,76 L716,84 Z" fill="#FFD700" opacity="0.8"/>
   <!-- Cape left -->
-  <path d="M696,85 Q682,100 685,115 L696,100 Z" fill="#FFD700" opacity="0.6"/>
+  <path d="M704,87 Q690,102 693,116 L704,102 Z" fill="#FFD700" opacity="0.65"/>
   <!-- Cape right -->
-  <path d="M710,85 Q724,100 721,115 L710,100 Z" fill="#FFD700" opacity="0.6"/>
-  <!-- Belt (dark stripe) -->
-  <rect x="696" y="96" width="14" height="2" fill="#0a0a10" opacity="0.8"/>
-  <!-- Legs -->
-  <rect x="698" y="100" width="5" height="6" fill="#FFD700" opacity="0.65" rx="1"/>
-  <rect x="703" y="100" width="5" height="6" fill="#FFD700" opacity="0.65" rx="1"/>
+  <path d="M716,87 Q730,102 727,116 L716,102 Z" fill="#FFD700" opacity="0.65"/>
+  <!-- Belt -->
+  <rect x="704" y="96" width="12" height="2" fill="#07070f" opacity="0.9"/>
 </svg>
