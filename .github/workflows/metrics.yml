@@ -26,12 +26,12 @@ jobs:
           config_timezone: Asia/Kolkata
           extras_css: |
             :root {
-              --color-term-background: #0d0d0d;
-              --color-term-primary: #39ff14;
-              --color-term-secondary: #00cc00;
+              --color-term-background: #07070f;
+              --color-term-primary: #FFD700;
+              --color-term-secondary: #D4AF37;
             }
-            .terminal { background: #0d0d0d !important; }
-            .term-text, text { fill: #39ff14 !important; color: #39ff14 !important; }
+            .terminal { background: #07070f !important; }
+            .term-text, text { fill: #FFD700 !important; color: #FFD700 !important; }
 
       # ── LANGUAGES ──────────────────────────────────────────────
       - name: Languages
@@ -48,8 +48,8 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           extras_css: |
-            .terminal { background: #0d0d0d !important; }
-            text { fill: #39ff14 !important; }
+            .terminal { background: #07070f !important; }
+            text { fill: #FFD700 !important; }
 
       # ── CONTRIBUTION CALENDAR ──────────────────────────────────
       - name: Isocalendar
@@ -63,8 +63,8 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           extras_css: |
-            .terminal { background: #0d0d0d !important; }
-            text { fill: #39ff14 !important; }
+            .terminal { background: #07070f !important; }
+            text { fill: #FFD700 !important; }
 
       # ── CODING HABITS ──────────────────────────────────────────
       - name: Habits
@@ -81,8 +81,8 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           extras_css: |
-            .terminal { background: #0d0d0d !important; }
-            text { fill: #39ff14 !important; }
+            .terminal { background: #07070f !important; }
+            text { fill: #FFD700 !important; }
 
       # ── RECENT ACTIVITY ────────────────────────────────────────
       - name: Activity
@@ -98,8 +98,8 @@ jobs:
           plugin_activity_days: 14
           plugin_activity_filter: push, issue, pr, review, release
           extras_css: |
-            .terminal { background: #0d0d0d !important; }
-            text { fill: #39ff14 !important; }
+            .terminal { background: #07070f !important; }
+            text { fill: #FFD700 !important; }
 
       # ── LEETCODE ───────────────────────────────────────────────
       - name: LeetCode
@@ -116,8 +116,8 @@ jobs:
           plugin_leetcode_limit_skills: 6
           plugin_leetcode_limit_recent: 3
           extras_css: |
-            .terminal { background: #0d0d0d !important; }
-            text { fill: #39ff14 !important; }
+            .terminal { background: #07070f !important; }
+            text { fill: #FFD700 !important; }
 
       # ── ACHIEVEMENTS ───────────────────────────────────────────
       - name: Achievements
@@ -132,8 +132,8 @@ jobs:
           plugin_achievements_threshold: C
           plugin_achievements_display: compact
           extras_css: |
-            .terminal { background: #0d0d0d !important; }
-            text { fill: #39ff14 !important; }
+            .terminal { background: #07070f !important; }
+            text { fill: #FFD700 !important; }
 
       # ── WORLDMAP ───────────────────────────────────────────────
       - name: Worldmap
@@ -148,5 +148,5 @@ jobs:
           plugin_stargazers_worldmap: yes
           plugin_stargazers_worldmap_sample: 200
           extras_css: |
-            .terminal { background: #0d0d0d !important; }
-            text { fill: #39ff14 !important; }
+            .terminal { background: #07070f !important; }
+            text { fill: #FFD700 !important; }
