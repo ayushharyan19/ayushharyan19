@@ -84,6 +84,12 @@ Currently   : Learning AI Agent building 🤖
 
 ---
 
+### `> metrics --worldmap`
+
+<img src="metrics.worldmap.svg" alt="Worldmap"/>
+
+---
+
 <div align="center">
 
 ```
