@@ -159,7 +159,18 @@ Feel free to reach me at **[ayush19062006@gmail.com](mailto:ayush19062006@gmail.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake-dark.svg" alt="GitHub contribution snake animation" width="100%"/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake-dark.svg" />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake.svg" />
+  <img
+    alt="GitHub contribution snake"
+    src="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake.svg"
+    width="100%" />
+</picture>
 
 </div>
 
