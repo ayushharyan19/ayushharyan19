@@ -48,7 +48,7 @@
 I am currently building **full-stack web projects** and sharpening my **DSA skills in Java**.<br>
 My exploration focuses on **React, Node.js, databases, APIs, and clean user experiences**.<br>
 I am always open to exciting **open-source collaborations** and **web development projects**.<br>
-Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmail.com)**.
+Feel free to reach me at **[ayush19062006@gmail.com](mailto:ayush19062006@gmail.com)**.
 
 </div>
 
