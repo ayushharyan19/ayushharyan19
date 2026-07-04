@@ -1,119 +1,94 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="380" viewBox="0 0 860 380">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.45" stop-color="#0a1024"/>
+      <stop offset="1" stop-color="#15070a"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff3347"/>
+      <stop offset="0.48" stop-color="#f5f7ff"/>
+      <stop offset="1" stop-color="#2d7dff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 
-  <!-- Dark background — solid fill, no url() gradient -->
-  <rect width="860" height="380" fill="#07070f" rx="10"/>
+  <rect width="860" height="380" rx="14" fill="url(#sky)"/>
+  <rect x="6" y="6" width="848" height="368" rx="12" fill="none" stroke="#e62429" stroke-width="2" opacity="0.75"/>
+  <rect x="12" y="12" width="836" height="356" rx="9" fill="none" stroke="#1e6bff" stroke-width="1.2" opacity="0.55"/>
 
-  <!-- Subtle purple-dark mid layer -->
-  <rect x="0" y="100" width="860" height="180" fill="#0d0b18" rx="0" opacity="0.6"/>
+  <!-- Web lines -->
+  <g fill="none" stroke-linecap="round" opacity="0.9">
+    <g stroke="#1e6bff" stroke-width="1.1" opacity="0.45">
+      <path d="M0 54 C120 110 220 142 365 152"/>
+      <path d="M0 118 C140 150 245 176 390 176"/>
+      <path d="M0 192 C128 190 250 202 392 210"/>
+      <path d="M860 46 C735 96 632 130 505 150"/>
+      <path d="M860 112 C730 145 628 170 485 178"/>
+      <path d="M860 198 C720 192 607 203 468 212"/>
+    </g>
+    <g stroke="#f5f7ff" stroke-width="0.9" opacity="0.25">
+      <path d="M64 0 L404 238"/>
+      <path d="M176 0 L414 242"/>
+      <path d="M316 0 L424 246"/>
+      <path d="M796 0 L456 238"/>
+      <path d="M684 0 L446 242"/>
+      <path d="M544 0 L436 246"/>
+    </g>
+    <g stroke="#e62429" stroke-width="1" opacity="0.5">
+      <path d="M72 350 C205 288 310 260 430 252 C550 260 655 288 788 350"/>
+      <path d="M122 312 C238 266 331 246 430 240 C529 246 622 266 738 312"/>
+      <path d="M188 280 C282 250 354 236 430 232 C506 236 578 250 672 280"/>
+    </g>
+  </g>
 
-  <!-- Gold outer border -->
-  <rect x="5" y="5" width="850" height="370" fill="none" stroke="#FFD700" stroke-width="2" rx="9" opacity="0.7"/>
+  <!-- City silhouette -->
+  <path d="M0 380 L0 306 L22 306 L22 286 L42 286 L42 262 L56 262 L56 304 L82 304 L82 238 L98 238 L98 220 L116 220 L116 304 L144 304 L144 272 L160 272 L160 246 L184 246 L184 304 L210 304 L210 216 L232 216 L232 196 L252 216 L252 304 L286 304 L286 254 L310 254 L310 232 L334 232 L334 304 L370 304 L370 270 L402 270 L402 246 L430 246 L458 246 L458 270 L490 270 L490 304 L526 304 L526 232 L550 232 L550 254 L574 254 L574 304 L608 304 L608 216 L628 196 L650 216 L650 304 L676 304 L676 246 L700 246 L700 272 L716 272 L716 304 L744 304 L744 220 L762 220 L762 238 L778 238 L778 304 L804 304 L804 262 L818 262 L818 286 L838 286 L838 306 L860 306 L860 380 Z" fill="#03050a"/>
+  <g fill="#2d7dff" opacity="0.45">
+    <rect x="96" y="246" width="5" height="8"/>
+    <rect x="110" y="246" width="5" height="8"/>
+    <rect x="222" y="232" width="5" height="8"/>
+    <rect x="242" y="232" width="5" height="8"/>
+    <rect x="532" y="248" width="5" height="8"/>
+    <rect x="546" y="248" width="5" height="8"/>
+    <rect x="616" y="232" width="5" height="8"/>
+    <rect x="636" y="232" width="5" height="8"/>
+    <rect x="750" y="248" width="5" height="8"/>
+    <rect x="764" y="248" width="5" height="8"/>
+  </g>
 
-  <!-- Stars -->
-  <circle cx="42"  cy="25"  r="1.2" fill="#FFD700" opacity="0.7"/>
-  <circle cx="130" cy="55"  r="0.9" fill="#fffde0" opacity="0.6"/>
-  <circle cx="200" cy="20"  r="1.4" fill="#FFD700" opacity="0.65"/>
-  <circle cx="278" cy="40"  r="0.8" fill="#fffde0" opacity="0.55"/>
-  <circle cx="350" cy="16"  r="1.1" fill="#FFD700" opacity="0.6"/>
-  <circle cx="430" cy="30"  r="0.7" fill="#fffde0" opacity="0.5"/>
-  <circle cx="502" cy="22"  r="1.2" fill="#FFD700" opacity="0.65"/>
-  <circle cx="580" cy="50"  r="0.9" fill="#fffde0" opacity="0.55"/>
-  <circle cx="650" cy="18"  r="1.1" fill="#FFD700" opacity="0.6"/>
-  <circle cx="720" cy="36"  r="0.8" fill="#fffde0" opacity="0.5"/>
-  <circle cx="795" cy="22"  r="1.3" fill="#FFD700" opacity="0.65"/>
-  <circle cx="82"  cy="80"  r="0.8" fill="#FFD700" opacity="0.5"/>
-  <circle cx="162" cy="90"  r="1.0" fill="#fffde0" opacity="0.45"/>
-  <circle cx="312" cy="76"  r="0.9" fill="#FFD700" opacity="0.5"/>
-  <circle cx="465" cy="70"  r="0.7" fill="#fffde0" opacity="0.45"/>
-  <circle cx="540" cy="85"  r="1.0" fill="#FFD700" opacity="0.5"/>
-  <circle cx="692" cy="70"  r="1.1" fill="#fffde0" opacity="0.5"/>
-  <circle cx="760" cy="88"  r="0.8" fill="#FFD700" opacity="0.45"/>
-  <circle cx="820" cy="58"  r="0.9" fill="#fffde0" opacity="0.5"/>
-  <circle cx="32"  cy="115" r="0.7" fill="#FFD700" opacity="0.45"/>
-  <circle cx="112" cy="128" r="1.0" fill="#fffde0" opacity="0.4"/>
-  <circle cx="750" cy="125" r="0.9" fill="#FFD700" opacity="0.45"/>
-  <circle cx="820" cy="110" r="0.8" fill="#fffde0" opacity="0.4"/>
-  <circle cx="388" cy="90"  r="0.6" fill="#FFD700" opacity="0.45"/>
-  <circle cx="252" cy="108" r="0.8" fill="#fffde0" opacity="0.4"/>
-  <circle cx="68"  cy="145" r="0.7" fill="#FFD700" opacity="0.4"/>
-  <circle cx="784" cy="145" r="0.8" fill="#fffde0" opacity="0.4"/>
+  <!-- Center mark -->
+  <g filter="url(#glow)">
+    <circle cx="430" cy="114" r="42" fill="#e62429" opacity="0.12"/>
+    <path d="M430 74 C416 91 402 108 402 132 C402 157 418 171 430 180 C442 171 458 157 458 132 C458 108 444 91 430 74Z" fill="none" stroke="#e62429" stroke-width="4"/>
+    <path d="M430 86 L430 176 M414 112 L446 112 M408 136 L452 136 M416 160 L444 160" stroke="#f5f7ff" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  </g>
 
-  <!-- Bat silhouette (subtle, top center) -->
-  <path d="M430,55 C425,50 414,58 409,49 C404,40 417,35 421,39 C424,36 427,29 430,27 C433,29 436,36 439,39 C443,35 456,40 451,49 C446,58 435,50 430,55Z" fill="#FFD700" opacity="0.15"/>
-
-  <!-- Golden glow behind name (radial — using ellipse fill trick) -->
-  <ellipse cx="430" cy="160" rx="250" ry="95" fill="#FFD700" opacity="0.04"/>
-  <ellipse cx="430" cy="160" rx="180" ry="65" fill="#FFD700" opacity="0.04"/>
-  <ellipse cx="430" cy="160" rx="100" ry="35" fill="#FFD700" opacity="0.03"/>
-
-  <!-- Gotham cityscape silhouette -->
-  <path d="M0,380 L0,300
-    L20,300 L20,275 L35,275 L35,260 L38,252 L41,260 L50,260 L50,285 L70,285
-    L70,250 L80,250 L80,238 L90,238 L90,225 L95,218 L100,225 L100,240 L115,240 L115,265 L130,265
-    L130,245 L143,245 L143,232 L147,226 L151,232 L160,232 L160,255 L175,255
-    L175,235 L183,235 L183,215 L190,215 L190,200 L194,193 L198,200 L198,220 L208,220 L208,248 L225,248
-    L225,262 L245,262 L245,242 L253,242 L253,225 L258,218 L263,225 L268,225 L268,210 L274,204 L280,210 L280,248 L295,248
-    L295,258 L325,258 L325,245 L338,245 L338,232 L344,225 L350,232 L355,232 L355,252 L375,252
-    L375,265 L410,265 L410,248 L420,248 L420,262 L430,262 L430,262 L440,262 L440,248 L450,248 L450,265
-    L485,265 L485,252 L505,252 L505,232 L511,225 L517,232 L522,232 L522,245 L535,245 L535,258 L565,258
-    L565,248 L571,204 L577,210 L583,210 L583,225 L588,218 L593,225 L598,225 L598,242 L606,242 L606,262 L625,262
-    L625,248 L638,248 L638,220 L642,200 L646,193 L650,200 L650,215 L657,215 L657,235 L665,235
-    L665,255 L680,255 L680,232 L689,232 L693,226 L697,232 L710,232 L710,245 L723,245 L723,265
-    L738,265 L738,240 L750,240 L750,225 L753,218 L758,225 L758,238 L768,238 L768,250 L778,250 L778,285
-    L795,285 L795,260 L804,260 L807,252 L810,260 L820,260 L820,275 L835,275 L835,300 L860,300
-    L860,380 Z"
-    fill="#08080d"/>
-
-  <!-- Window lights in buildings -->
-  <rect x="93"  y="228" width="3" height="3" fill="#FFD700" opacity="0.4"/>
-  <rect x="193" y="205" width="3" height="3" fill="#FFD700" opacity="0.35"/>
-  <rect x="258" y="228" width="3" height="3" fill="#FFD700" opacity="0.4"/>
-  <rect x="346" y="235" width="3" height="3" fill="#FFD700" opacity="0.35"/>
-  <rect x="514" y="235" width="3" height="3" fill="#FFD700" opacity="0.35"/>
-  <rect x="573" y="215" width="3" height="3" fill="#FFD700" opacity="0.4"/>
-  <rect x="648" y="205" width="3" height="3" fill="#FFD700" opacity="0.35"/>
-  <rect x="755" y="228" width="3" height="3" fill="#FFD700" opacity="0.4"/>
-
-  <!-- Name -->
-  <text x="430" y="180" text-anchor="middle"
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="74" font-weight="bold"
-        fill="#FFD700" letter-spacing="2">Ayush Aryan</text>
-
-  <!-- Horizontal rule below name -->
-  <line x1="140" y1="198" x2="720" y2="198" stroke="#FFD700" stroke-width="1.5" opacity="0.55"/>
-
-  <!-- Subtitle line 1 -->
-  <text x="430" y="232" text-anchor="middle"
-        font-family="Georgia, 'Times New Roman', serif"
-        font-size="18" font-weight="bold"
-        fill="#FFD700" opacity="0.95">AI Agent Builder · Web Developer · DSA Warrior</text>
-
-  <!-- Subtitle line 2 -->
-  <text x="430" y="260" text-anchor="middle"
-        font-family="Georgia, 'Times New Roman', serif"
+  <text x="430" y="220" text-anchor="middle"
+        font-family="Impact, 'Arial Black', system-ui, sans-serif"
+        font-size="70" font-weight="900"
+        fill="url(#name)" letter-spacing="1.5">Ayush Aryan</text>
+  <line x1="156" y1="239" x2="704" y2="239" stroke="#f5f7ff" stroke-width="1" opacity="0.35"/>
+  <text x="430" y="274" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
+        font-size="19" font-weight="700"
+        fill="#f5f7ff">Full-Stack Web Developer | Java DSA</text>
+  <text x="430" y="303" text-anchor="middle"
+        font-family="'Courier New', Courier, monospace"
         font-size="14"
-        fill="#B8860B" opacity="0.9">CSE @ Vedam School of Technology</text>
+        fill="#7eb0ff">React - Node.js - Java - MongoDB - Supabase</text>
 
-  <!-- Diamond divider -->
-  <line x1="100" y1="305" x2="148" y2="305" stroke="#FFD700" stroke-width="0.8" opacity="0.3"/>
-  <polygon points="155,299 161,305 155,311 149,305" fill="#FFD700" opacity="0.5"/>
-  <line x1="161" y1="305" x2="208" y2="305" stroke="#FFD700" stroke-width="0.8" opacity="0.35"/>
-  <polygon points="215,299 222,305 215,311 208,305" fill="#FFD700" opacity="0.65"/>
-  <line x1="222" y1="305" x2="278" y2="305" stroke="#FFD700" stroke-width="1" opacity="0.45"/>
-  <polygon points="285,300 294,305 285,310 276,305" fill="#FFD700" opacity="0.75"/>
-  <line x1="294" y1="305" x2="358" y2="305" stroke="#FFD700" stroke-width="1.2" opacity="0.55"/>
-  <polygon points="365,299 375,305 365,311 355,305" fill="#FFD700" opacity="0.85"/>
-  <line x1="375" y1="305" x2="418" y2="305" stroke="#FFD700" stroke-width="1.2" opacity="0.6"/>
-  <!-- Center diamond (largest) -->
-  <polygon points="430,294 443,305 430,316 417,305" fill="#FFD700" opacity="1"/>
-  <line x1="443" y1="305" x2="485" y2="305" stroke="#FFD700" stroke-width="1.2" opacity="0.6"/>
-  <polygon points="495,299 505,305 495,311 485,305" fill="#FFD700" opacity="0.85"/>
-  <line x1="505" y1="305" x2="566" y2="305" stroke="#FFD700" stroke-width="1.2" opacity="0.55"/>
-  <polygon points="573,300 582,305 573,310 564,305" fill="#FFD700" opacity="0.75"/>
-  <line x1="582" y1="305" x2="638" y2="305" stroke="#FFD700" stroke-width="1" opacity="0.45"/>
-  <polygon points="645,299 652,305 645,311 638,305" fill="#FFD700" opacity="0.65"/>
-  <line x1="652" y1="305" x2="699" y2="305" stroke="#FFD700" stroke-width="0.8" opacity="0.35"/>
-  <polygon points="705,299 711,305 705,311 699,305" fill="#FFD700" opacity="0.5"/>
-  <line x1="711" y1="305" x2="760" y2="305" stroke="#FFD700" stroke-width="0.8" opacity="0.3"/>
+  <g opacity="0.75">
+    <circle cx="278" cy="334" r="3" fill="#e62429"/>
+    <line x1="288" y1="334" x2="390" y2="334" stroke="#e62429" stroke-width="2"/>
+    <circle cx="430" cy="334" r="5" fill="#f5f7ff"/>
+    <line x1="470" y1="334" x2="572" y2="334" stroke="#1e6bff" stroke-width="2"/>
+    <circle cx="582" cy="334" r="3" fill="#1e6bff"/>
+  </g>
 </svg>

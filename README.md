@@ -8,29 +8,29 @@
 
 <div align="center">
 
-## ⚡ WHO AM I
+## 🕸️ WHO AM I
 
 <br>
 
-> *「 Every great creation begins in darkness. 」*
+> *「 With great code comes great responsibility. 」*
 > 
-> *「 I transform raw ideas into living, breathing applications. 」*
+> *「 I build fast, clean, full-stack web experiences and sharpen my DSA every day. 」*
 
 <br>
 
 <table>
-<tr><td align="center" width="170"><b>🦇 NAME</b></td><td align="center" width="170"><b>⚙️ ROLE</b></td><td align="center" width="170"><b>📍 LOCATION</b></td></tr>
-<tr><td align="center"><code>Ayush Aryan</code></td><td align="center"><code>AI Agent Builder</code></td><td align="center"><code>India</code></td></tr>
+<tr><td align="center" width="170"><b>🕷️ NAME</b></td><td align="center" width="170"><b>⚙️ ROLE</b></td><td align="center" width="170"><b>📍 LOCATION</b></td></tr>
+<tr><td align="center"><code>Ayush Aryan</code></td><td align="center"><code>Full-Stack Web Developer</code></td><td align="center"><code>India</code></td></tr>
 </table>
 
 <table>
-<tr><td align="center" width="255"><b>🏛️ INSTITUTE</b></td><td align="center" width="255"><b>🏭 CRAFT</b></td></tr>
-<tr><td align="center"><code>Vedam School of Technology</code></td><td align="center"><code>Fordge Factory — AI Agents</code></td></tr>
+<tr><td align="center" width="255"><b>🏛️ INSTITUTE</b></td><td align="center" width="255"><b>🧑‍💻 CRAFT</b></td></tr>
+<tr><td align="center"><code>Vedam School of Technology</code></td><td align="center"><code>Frontend + Backend Web Apps</code></td></tr>
 </table>
 
 <table>
 <tr><td align="center" width="255"><b>⚔️ ARENA</b></td><td align="center" width="255"><b>🚀 SPIRIT</b></td></tr>
-<tr><td align="center"><code>DSA in Java</code></td><td align="center"><code>Always Building, Always Shipping</code></td></tr>
+<tr><td align="center"><code>DSA in Java</code></td><td align="center"><code>Build. Debug. Swing Again.</code></td></tr>
 </table>
 
 </div>
@@ -41,13 +41,13 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=500&lines=%E2%9A%A1+What+I'm+doing+right+now" alt="What I'm doing right now"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=E62429&center=true&vCenter=true&width=500&lines=%F0%9F%95%B8%EF%B8%8F+What+I'm+doing+right+now" alt="What I'm doing right now"/>
 
 <br><br>
 
-I am currently building **AI-powered agents** at **Fordge Factory** and sharpening my **DSA skills in Java**.<br>
-My exploration focuses on **autonomous agents, LLM orchestration, and full-stack development**.<br>
-I am always open to exciting **open-source collaborations** and **AI agent projects**.<br>
+I am currently building **full-stack web projects** and sharpening my **DSA skills in Java**.<br>
+My exploration focuses on **React, Node.js, databases, APIs, and clean user experiences**.<br>
+I am always open to exciting **open-source collaborations** and **web development projects**.<br>
 Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmail.com)**.
 
 </div>
@@ -60,21 +60,21 @@ Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmai
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=400&lines=%F0%9F%9B%A0%EF%B8%8F+The+Toolkit" alt="The Toolkit"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=1E6BFF&center=true&vCenter=true&width=400&lines=%F0%9F%9B%A0%EF%B8%8F+The+Toolkit" alt="The Toolkit"/>
 
 <br><br>
 
 <table>
 <tr>
 <td align="center"><b>Frontend</b></td>
-<td align="center"><b>Backend & AI</b></td>
+<td align="center"><b>Backend & Databases</b></td>
 </tr>
 <tr>
 <td align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind&theme=dark" alt="Frontend Skills"/>
 </td>
 <td align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,python,java,flask,mongodb,supabase&theme=dark" alt="Backend & AI Skills"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,java,flask,mongodb,supabase&theme=dark" alt="Backend and Database Skills"/>
 </td>
 </tr>
 </table>
@@ -82,17 +82,17 @@ Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmai
 <table>
 <tr>
 <td align="center"><b>Tools, Deployment & Workflow</b></td>
-<td align="center"><b>AI & LLM Stack</b></td>
+<td align="center"><b>DSA & Core</b></td>
 </tr>
 <tr>
 <td align="center">
 <img src="https://skillicons.dev/icons?i=git,github,vercel,vscode,figma&theme=dark" alt="Tools"/>
 </td>
 <td align="center">
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" alt="AI Stack"/>
+<img src="https://skillicons.dev/icons?i=java,cpp,python&theme=dark" alt="DSA and Core Skills"/>
 &nbsp;
-<img src="https://img.shields.io/badge/OpenAI-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" height="48"/>
-<img src="https://img.shields.io/badge/LangChain-%231C3C3C.svg?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" height="48"/>
+<img src="https://img.shields.io/badge/Data%20Structures-E62429?style=for-the-badge&logoColor=white" alt="Data Structures" height="48"/>
+<img src="https://img.shields.io/badge/Algorithms-1E6BFF?style=for-the-badge&logoColor=white" alt="Algorithms" height="48"/>
 </td>
 </tr>
 </table>
@@ -107,7 +107,7 @@ Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmai
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=400&lines=%F0%9F%8F%86+Coding+Profile" alt="Coding Profile"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=E62429&center=true&vCenter=true&width=400&lines=%F0%9F%8F%86+Coding+Profile" alt="Coding Profile"/>
 
 <br><br>
 
@@ -125,17 +125,17 @@ Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmai
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&width=400&lines=%F0%9F%93%8A+GitHub+Stats" alt="GitHub Stats"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=1E6BFF&center=true&vCenter=true&width=400&lines=%F0%9F%93%8A+GitHub+Stats" alt="GitHub Stats"/>
 
 <br><br>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushharyan19&show_icons=true&theme=dark&bg_color=0d1117&title_color=FFD700&icon_color=FFD700&text_color=c9d1d9&border_color=FFD700&hide_border=false" alt="GitHub Stats" width="48%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ayushharyan19&show_icons=true&theme=dark&bg_color=05070d&title_color=E62429&icon_color=1E6BFF&text_color=f5f7ff&border_color=E62429&hide_border=false" alt="GitHub Stats" width="48%"/>
 &nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com?user=ayushharyan19&theme=dark&background=0d1117&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideLabels=FFD700&border=FFD700" alt="GitHub Streak" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ayushharyan19&theme=dark&background=05070d&ring=E62429&fire=E62429&currStreakLabel=1E6BFF&sideLabels=E62429&border=1E6BFF" alt="GitHub Streak" width="48%"/>
 
 <br><br>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushharyan19&layout=compact&theme=dark&bg_color=0d1117&title_color=FFD700&text_color=c9d1d9&border_color=FFD700&hide_border=false" alt="Top Languages" width="40%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ayushharyan19&layout=compact&theme=dark&bg_color=05070d&title_color=E62429&text_color=f5f7ff&border_color=1E6BFF&hide_border=false" alt="Top Languages" width="40%"/>
 
 </div>
 
@@ -147,7 +147,19 @@ Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmai
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushharyan19&bg_color=0d1117&color=FFD700&line=FFD700&point=FFFFFF&area_color=FFD700&area=true&hide_border=false&custom_title=Contribution%20Graph" alt="Activity Graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayushharyan19&bg_color=05070d&color=f5f7ff&line=E62429&point=1E6BFF&area_color=E62429&area=true&hide_border=false&custom_title=Contribution%20Graph" alt="Activity Graph" width="100%"/>
+
+</div>
+
+<br>
+
+---
+
+<!-- ═══════════════════ CONTRIBUTION SNAKE ═══════════════════ -->
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ayushharyan19/ayushharyan19/output/github-snake-dark.svg" alt="GitHub contribution snake animation" width="100%"/>
 
 </div>
 
@@ -158,12 +170,12 @@ Feel free to reach me at **[ayusharyan.dev@gmail.com](mailto:ayusharyan.dev@gmai
 <div align="center">
 
 ```text
-// "The ego that devours the world begins with devouring yourself."
-// — Blue Lock mindset 🔵🔒
+// Friendly neighborhood developer mode: ON.
+// Java DSA by day. Full-stack builds by night.
 ```
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=4000&pause=2000&color=FFD700&center=true&vCenter=true&width=350&lines=Thanks+for+visiting+%F0%9F%A6%87;Always+Building%2C+Always+Shipping+%F0%9F%9A%80" alt="Footer typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=4000&pause=2000&color=E62429&center=true&vCenter=true&width=380&lines=Thanks+for+visiting+%F0%9F%95%B8%EF%B8%8F;Always+Building%2C+Always+Shipping+%F0%9F%9A%80" alt="Footer typing"/>
 
 </div>

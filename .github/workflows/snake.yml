@@ -5,14 +5,18 @@ on:
     - cron: "0 */12 * * *" # Every 12 hours
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Generate Snake Game
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ayushharyan19
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
