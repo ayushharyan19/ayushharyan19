@@ -34,9 +34,9 @@ text { fill: #FFD700 !important; }</style>
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">ayushharyan19@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>HTML        </b> [##########          ] 49.15%
-<b>CSS         </b> [######              ] 25.52%
-<b>JAVASCRIPT  </b> [######              ] 25.33%
+<pre><div class="stdin"><span class="ps1-path">ayushharyan19@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>HTML        </b> [##########          ] 48.03%
+<b>CSS         </b> [######              ] 26.68%
+<b>JAVASCRIPT  </b> [######              ] 25.29%
 </div>
 
 </pre>
